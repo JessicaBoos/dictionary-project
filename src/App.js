@@ -1,5 +1,6 @@
-import signature from "./signature.png";
+import signature from "./signature2.png";
 import "./App.css";
+import Dictioanary from "./Dictionary.js";
 
 export default function App() {
   return (
@@ -12,6 +13,12 @@ export default function App() {
         />
         <span className="App-header-text">Dictionary App</span>
       </header>
+      <main>
+        <Dictioanary />
+      </main>
+      <footer className="text-center">
+        This Project was coded by Jessica Boos.
+      </footer>
     </div>
   );
 }
