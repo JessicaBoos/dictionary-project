@@ -1,4 +1,4 @@
-import signature from "./signature2.png";
+import signature from "./signature.png";
 import "./App.css";
 import Dictioanary from "./Dictionary.js";
 
@@ -11,7 +11,7 @@ export default function App() {
           className="App-signature img-fluid"
           alt="signature"
         />
-        <span className="App-header-text">Dictionary App</span>
+        <span className="App-header-text">Dictionary</span>
       </header>
       <main>
         <Dictioanary />

@@ -24,14 +24,16 @@ export default function Dictioanary() {
   }
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input
-          type="Search"
-          autoFocus={true}
-          placeholder="Search for a word..."
-          onChange={handleKeywordChange}
-        ></input>
-      </form>
+      <section>
+        <form onSubmit={search}>
+          <input
+            type="Search"
+            autoFocus={true}
+            placeholder="Search for a word..."
+            onChange={handleKeywordChange}
+          ></input>
+        </form>
+      </section>
       <Results results={results} />
     </div>
   );
