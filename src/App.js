@@ -14,7 +14,7 @@ export default function App() {
         <span className="App-header-text">Dictionary</span>
       </header>
       <main>
-        <Dictioanary />
+        <Dictioanary defaultKeyword="Star" />
       </main>
       <footer className="text-center">
         This Project was coded by Jessica Boos.

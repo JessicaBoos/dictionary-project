@@ -1,0 +1,14 @@
+.Meaning .Example {
+  opacity: 0.7;
+}
+
+.Meaning .Synonyms {
+  margin: 0;
+  padding: 0;
+}
+
+.Meaning .Synonyms li {
+  display: inline-block;
+  padding-right: 15px;
+  text-decoration: underline;
+}

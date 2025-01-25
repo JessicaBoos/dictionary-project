@@ -3,7 +3,6 @@
   padding: 15px 30px;
   margin: 10px;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .Dictionary input {
@@ -13,13 +12,28 @@
   padding: 5px;
   border-radius: 10px;
   border: none;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
+.Dictionary .Phonetics {
+  height: 45px;
+  font-weight: bold;
+}
+
 .Dictionary a {
-  color: #212121;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  transition: all 150ms ease-in-out;
+  text-decoration: none;
+}
+
+.Dictionary a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
 }
 
 .Dictionary h1,
@@ -28,4 +42,12 @@ h4 {
   text-align: center;
   border-radius: 10px;
   padding: 10px;
+  margin-bottom: 15px;
+}
+.Dictionary h1 {
+  text-transform: capitalize;
+}
+.Dictionary h3 {
+  color: white;
+  text-align: center;
 }
