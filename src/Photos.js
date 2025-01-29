@@ -2,7 +2,6 @@ import React from "react";
 import "./Photos.css";
 
 export default function Photos(props) {
-  console.log(props.photos);
   if (props.photos) {
     return (
       <section className="Photos">
@@ -12,7 +11,11 @@ export default function Photos(props) {
               <div className="col-4 images" key={index}>
                 <figure className="hover-img">
                   <a href={photo.src.original} target="_blank" rel="noreferrer">
-                    <img className="img-fluid" src={photo.src.landscape} />
+                    <img
+                      className="img-fluid"
+                      src={photo.src.landscape}
+                      alt={props.keyword}
+                    />
                     <figcaption>
                       <h5>view full image</h5>
                     </figcaption>

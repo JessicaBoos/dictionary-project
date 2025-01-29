@@ -16,7 +16,6 @@ export default function Dictioanary(props) {
 
   function handlePexelsResponse(response) {
     setPhotos(response.data.photos);
-    console.log(photos);
   }
   function search() {
     // documentation: https://dictionaryapi.dev/
@@ -60,7 +59,7 @@ export default function Dictioanary(props) {
           </form>
         </section>
         <Results results={results} />
-        <Photos photos={photos} />
+        <Photos photos={photos} keyword={keyword} />
       </div>
     );
   } else {
